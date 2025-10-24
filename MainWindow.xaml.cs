@@ -9,7 +9,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
-using ContractMontlhyClaimStatus.Models;
+using ContractMonthlyClaimSystem.Models;
 using ContractMontlhyClaimStatus.Repositories;
 using Microsoft.Win32;
 
@@ -91,8 +91,6 @@ namespace ContractMontlhyClaimStatus
                 DocumentFileName = storedFileName,
                 DocumentFullPath = storedFullPath
             };
-
-            ClaimRepository.Add(newClaim);
 
             TxtLecturerName.Text = string.Empty;
             TxtHoursWorked.Text = string.Empty;

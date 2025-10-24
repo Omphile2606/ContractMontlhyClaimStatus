@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ContractMontlhyClaimStatus.Models;
+using ContractMonthlyClaimSystem.Models;
 
 namespace ContractMontlhyClaimStatus.Repositories
     {
@@ -40,5 +40,5 @@ namespace ContractMontlhyClaimStatus.Repositories
                 _claims.Clear();
                 _nextId = 1;
             }
-        }
+    }
     }
